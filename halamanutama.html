@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+
+     <!--Header-->
+     <div class="container-fuid">
+        <!-- baris satu adalah header, full layar-->
+        <div class="row" style="background :#333; color: white;">
+        <div class="col-md-12">
+            <h1 align="center">HOME</h1>
+        </div>
+        </div>
+    </div>
+    <!--/Header-->
+
+    <!--Navbar-->
+    <nav class="navi">
+        <ul>
+        <li><a href="halamanutama.html">Home</a></li>
+        <li><a href="profile.html">profile</a></li>
+        <li><a href="product.html">Product</a></li>
+        <li><a href="saran.html">Kontak</a></li>
+        </ul>
+        </nav>
+
+</head>
+<body>
+    <section class="banner">
+		<h2>Selmat Datang Di toko Seorang Siswa</h2>
+	</section>
+
+	<!-- about -->
+	<section class="about">
+		<div class="container">
+			<h3>ABOUT</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <strong>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</strong> when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+		</div>
+	</section>
+
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<small> Copyright &copy; 2021 - Ahmad Nawawi Umar, All Rights Reserved.</small>
+		</div>
+	</footer>
+</body>
+
+<style>
+    *{
+	padding: 0;
+	margin-top: 0;
+	font-family: sans-serif;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.medsos{
+	padding: 5px 0;
+	background-color: #37E6F7;
+}
+.medsos	ul li {
+	display: inline-block;
+	color: white;
+	margin-right: 10px;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+header h1{
+	float: left;
+	padding: 15px 0px;
+	color: #37E6F7;
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color: #37E6F7;
+	color: #fff;
+}
+.active{
+	background-color: #37E6F7;
+	color: #fff;
+}
+.banner{
+	height: 60vh;
+	background-image: url(../UAS/img/banermobil.jpg);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after{
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(55, 230, 247, .6);
+}
+.banner h2{
+	color: #fff;
+	z-index: 1;
+	padding: 20px 25px;
+	border: 3px solid #fff;
+}
+section{
+	padding: 50px 0;
+}
+section h3{
+	text-align: center;
+	padding: 20px 0;
+	color: #37E6F7;
+}
+.about p{
+	color: #666;
+	word-spacing: 2px;
+	line-height: 25px;
+}
+.contact{
+	background-color: #B3FAE9;
+}
+footer{
+	padding: 30px 0;
+	background-color: #AAF9EF;
+	color: #FFC300;
+	text-align: center;
+}
+</style>
+
+</html>
